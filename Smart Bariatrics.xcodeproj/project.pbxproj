@@ -13,6 +13,7 @@
 		E45E63942454A14E0056FB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45E63932454A14E0056FB56 /* Assets.xcassets */; };
 		E45E63972454A14E0056FB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45E63952454A14E0056FB56 /* LaunchScreen.storyboard */; };
 		E45E639F2454A3ED0056FB56 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E639E2454A3ED0056FB56 /* LoginVC.swift */; };
+		E4E4F7172454F3F400D22F0C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4F7162454F3F400D22F0C /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E45E63962454A14E0056FB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E45E63982454A14E0056FB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E45E639E2454A3ED0056FB56 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E4E4F7162454F3F400D22F0C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E45E638A2454A14D0056FB56 /* AppDelegate.swift */,
 				E45E638C2454A14D0056FB56 /* SceneDelegate.swift */,
+				E45E639E2454A3ED0056FB56 /* LoginVC.swift */,
 				E45E63902454A14D0056FB56 /* Main.storyboard */,
+				E4E4F7162454F3F400D22F0C /* Utils.swift */,
 				E45E63932454A14E0056FB56 /* Assets.xcassets */,
 				E45E63952454A14E0056FB56 /* LaunchScreen.storyboard */,
 				E45E63982454A14E0056FB56 /* Info.plist */,
-				E45E639E2454A3ED0056FB56 /* LoginVC.swift */,
 			);
 			path = "Smart Bariatrics";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				E45E638B2454A14D0056FB56 /* AppDelegate.swift in Sources */,
 				E45E638D2454A14D0056FB56 /* SceneDelegate.swift in Sources */,
 				E45E639F2454A3ED0056FB56 /* LoginVC.swift in Sources */,
+				E4E4F7172454F3F400D22F0C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
